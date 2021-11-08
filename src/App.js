@@ -1,5 +1,5 @@
 import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portolio/Portfolio";
+//import Portfolio from "./components/portolio/Portfolio";
 import Topbar from "./components/topbar/Topbar";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact"
