@@ -36,8 +36,8 @@ export default function About() {
                         {d.description}
                     </div>
                     <div className="bottom">
-                        <h3>Felix</h3>
-                        <h4>ceo of billion under</h4>
+                        {/* <h3>Felix</h3>
+                        <h4>ceo of billion under</h4> */}
                     </div>
                 </div>
                 ))}

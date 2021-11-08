@@ -13,7 +13,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["Web Developer","UX Designer","Softwara Developer"]
+            strings: ["AWS Certified Cloud Practitioner", "Web Developer","UX Designer","Software Developer"]
         });
     }, []);
 
@@ -25,6 +25,10 @@ export default function Intro() {
                 </div>
             </div>
             <div className="right">
+                <div className="warning">
+                    <img src="assets/warning.svg" alt="" />
+                    <p>This site is currently undergoing reconstructions. It might be missing information or functionalities</p>
+                </div>
                 <div className="wrapper">
                     <h2>Hi There, I am</h2>
                     <h1>Felix Mbikogbia</h1>
