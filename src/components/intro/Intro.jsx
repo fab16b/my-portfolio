@@ -27,7 +27,7 @@ export default function Intro() {
             <div className="right">
                 <div className="warning">
                     <img src="assets/warning.svg" alt="" />
-                    <p>This site is currently undergoing reconstructions. It might be missing information or functionalities</p>
+                    <p>This site is currently undergoing maintenance. It might be missing some information or functionalities</p>
                 </div>
                 <div className="wrapper">
                     <h2>Hi There, I am</h2>
