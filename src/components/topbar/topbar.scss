@@ -9,6 +9,7 @@
     top: 0;
     z-index: 3;
     transition: all 2s ease;
+    scroll-behavior: smooth;
 
     .wrapper{
         padding: 10px 30px;
@@ -27,12 +28,20 @@
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
+
+                @include mobile{
+                    font-size: 25px;
+                }
             }
     
             .itemContainer{
                 display: flex;
                 align-items: center;
                 margin-right: 30px;
+
+                @include mobile{
+                    display: none;
+                }
     
                 .icon{
                     font-size: 18px;
@@ -42,6 +51,15 @@
                 span{
                     font-size: 15px;
                     font-weight: 500;
+                }
+                a{
+                    text-decoration: none;
+                    color: $mainColor
+                    span{
+                        font-size: 15px;
+                        font-weight: 500;
+                        
+                    }
                 }
             }
         }
@@ -54,6 +72,11 @@
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
+
+                @include mobile{
+                    width: 25px;
+                    height: 20px;
+                }
     
                 span{
                     width: 100%;
