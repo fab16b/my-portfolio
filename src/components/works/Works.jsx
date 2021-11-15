@@ -62,9 +62,9 @@ export default function Works() {
     }
     return (
         <div className="works" id="works">
+            <h1>Works</h1>
             <div className="slider" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
                 {data.map((d) => (  <div className="container">
-                    <h1>Works</h1>
                     <div className="item" style={{backgroundColor: d.bg}}>
                         <div className="left">
                             <img src={d.img} alt="" />

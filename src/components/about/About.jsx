@@ -8,19 +8,19 @@ export default function About() {
             id: 1,
             title: "Something 1",
             img: "assets/globe.jpeg",
-            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+            description: "Hi! I am Felix Mbikogbia. I am currently a student at Abilene Christian University, ACU, and I am studying Computer Science. I am a Web Developer at Nuclear Energy eXperimental Testing (NEXT) as a part-time student worker.",
         }, 
         {
             id: 2,
             title: "something 2",
             img: "assets/globe.jpeg",
-            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+            description: "During my study at ACU, I have had several opportunities to take classes and work on web projects where I got to use my design skills and ideas. I am passionate about creating technology that people can use easily and that provides great experience to people of all backgrounds. I am open minded, and always willing to learn new things!",
         },
         {
             id: 3,
             title: "something 3",
             img: "assets/globe.jpeg",
-            description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+            description: "I am passionate about UX Design, Web Development, AWS Cloud technology, and Mobile App Development. I have skills in C++, JavaScript, HTML, CSS, Java, Swift, Figma, and Adobe XD. I spent most of my time learning new skills on Udemy, Coursera, and YouTube. I also like to cook, workout, and ride my bike.",
         }
     ]
     return (

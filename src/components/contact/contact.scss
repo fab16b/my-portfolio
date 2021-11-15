@@ -5,9 +5,11 @@
     .left{
         flex: 1;
         overflow: hidden;
-        img{
-            height: 100%;
-        }
+        // img{
+        //     height: 80%;
+        //     margin-top: 15px;
+        //     padding: 40px 0 50px 30px;
+        // }
     }
 
     .right{
@@ -43,9 +45,14 @@
                 color: white;
                 border: none;
                 border-radius: 10px;
-                background-color: crimson;
+                background-color: crimson;//#E68261;
                 font-weight: 500;
                 cursor: pointer;
+                transition: all 1s ease;
+                    
+                &:hover{
+                    background-color: #2248F6;
+                }
 
                 &:focus{
                     outline: none;

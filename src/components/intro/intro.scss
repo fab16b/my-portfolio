@@ -1,6 +1,12 @@
+@import "../../global.scss";
+
 .intro{
     background-color: white;
     display: flex;
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
     
     .left{
         flex: 0.5;
@@ -9,15 +15,24 @@
         .imageContainer{
             height: 700px;
             width: 700px;
-            background-color: crimson;
+            background-color: crimson;//#e68261;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             float: right;
 
+            @include mobile{
+                height: 600px;
+                width: 700px;
+                align-items: flex-start;
+            }
+
             img{
                 height: 100%;
+                @include mobile{
+                    height: 50%;
+                }
             }
         }
     }
@@ -34,7 +49,7 @@
 
             img{
                 height: 60px;
-                color: yellow;
+                //color: yellow;
             }
         }
 
@@ -46,19 +61,34 @@
             flex-direction: column;
             justify-content: center;
 
+            @include mobile{
+                height: 60%;
+                align-items: center;
+                padding-left: 0;
+            }
+
             h1{
                 font-size: 60px;
                 margin: 10px 0;
+
+                @include mobile{
+                    font-size: 30px;
+                }
             }
             h2{
                 font-size: 35px;
+                @include mobile{
+                    font-size: 20px;
+                }
             }
             h3{
                 font-size: 30px;
-
+                @include mobile{
+                    font-size: 15px;
+                }
                 span{
                     font-size: inherit;
-                    color: crimson;
+                    color: crimson//#e68261;
                 }
 
                 .ityped-cursor {
@@ -80,10 +110,23 @@
             bottom: 30px;
             left: 35%;
 
+            @include mobile{
+                background-color: rgb(240, 112, 138);
+                height: 120px;
+                align-items: center;
+                justify-content: right;
+                left: 45%;
+            }
+
             .downarrow{
                 width: 40px;
                 height: 40px;
                 animation: arrowBlink 2s infinite;
+
+                @include mobile{
+                    width: 30px;
+                    height: 30px;
+                }
             }
 
             @keyframes arrowBlink {

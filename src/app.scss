@@ -1,10 +1,12 @@
+@import "./global.scss";
+
 .app{
     height: 100vh;
 
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: lightsalmon;
+        background-color: white;
         position: relative;
         top: 70px;
         //snap scroll
@@ -14,11 +16,23 @@
         &::-webkit-scrollbar{
             display: none;
         }
+        @include mobile{
+            scroll-behavior: smooth;
+            scroll-snap-type: none;
+            scrollbar-width: none;
+        }
 
         > *{
             width: 100vw;
             height: calc(100vh - 70px);
+            margin-bottom: 200px;
+            background-color: white;
             scroll-snap-align: start;
+            overflow: hidden;
+
+            @include mobile{
+                height: 600px;
+            }
         }
     }
 }
