@@ -34,7 +34,7 @@ export default function Intro() {
                     <h1>Felix Mbikogbia</h1>
                     <h3>I am a <span ref={textRef}> </span></h3>
                 </div>
-                <a href="#works">
+                <a href="#portfolio">
                     <ArrowDownward className="downarrow"/>
                 </a>
             </div>
